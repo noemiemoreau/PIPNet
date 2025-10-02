@@ -27,7 +27,7 @@ path = "/scratch/nmoreau/glom_classification/"
 
 time_start = time.time()
 
-path_images = os.path.join(path, "/glom_extracted/glom_images/")
+path_images = os.path.join(path, "glom_extracted/glom_images/")
 path_split = "splits_kidney.json"
 train_save_path = os.path.join(path, 'pipnet_dataset/train/')
 val_save_path = os.path.join(path, 'pipnet_dataset/val/')
